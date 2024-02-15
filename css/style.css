@@ -5,8 +5,8 @@ body {
 navy {
     display:flex;
     flex-direction: column;
-    padding-top:10px;
-    padding-bottom:50px;
+    padding-top: 10px;
+    padding-bottom: 60px;
     background-color: #1f2937;   
     gap: 50px;
     justify-content: center;
@@ -39,17 +39,36 @@ li {
 
 .second {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex: 1;
-    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
 }
 
+#t_box {
+    width: 400px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
 img {
     width: 400px;
     height: auto;
     margin: 20px;
 }
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 700;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
 .w_text {
     color: #f9faf8;
     font-family: 'roboto';
