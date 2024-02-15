@@ -11,6 +11,7 @@ navy {
     gap: 50px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .first {
@@ -21,6 +22,7 @@ navy {
     padding: 0px;
     flex: auto;
     width: 100%;
+    
 }
 
 ul {
@@ -35,6 +37,8 @@ li {
     font-size: 18px;
     list-style: none;
     padding: 0px;
+    font-family: "roboto", sans-serif;
+    
 }
 
 .second {
@@ -60,6 +64,55 @@ img {
     margin: 20px;
 }
 
+.white {
+    padding: 10px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+strong {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: "roboto", sans-serif;
+    display: block;
+    padding: 10px;
+}
+
+div.boxes {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+div.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 2px;
+    border:#3882f6 solid 3px;
+}
+
+.comment {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+    width: 150px;
+    color:rgb(50, 49, 49)
+}
+   
 button {
     background-color: #3882f6;
     color: white;
@@ -71,14 +124,17 @@ button {
 
 .w_text {
     color: #f9faf8;
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
 }
 
 .w_text.logo {
     font-size: 24px;
+    font-weight: 700;
+    font-family: "roboto", sans-serif;
 }
 
 div.title {
     font-size: 48px;
     font-weight: 900;
+    font-family: "roboto", sans-serif;
 }
