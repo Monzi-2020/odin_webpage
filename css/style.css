@@ -101,8 +101,6 @@ div.box {
     height: 150px;
     border-radius: 8px;
     margin: 5px;
-    padding: 2px;
-    border:#3882f6 solid 3px;
 }
 
 .comment {
@@ -137,4 +135,30 @@ div.title {
     font-size: 48px;
     font-weight: 900;
     font-family: "roboto", sans-serif;
+}
+
+div.grey {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 12%;
+    gap: 10px;
+}
+
+.testi {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: "roboto", sans-serif;
+    color: #1f2937;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "roboto", sans-serif;
+    align-self: flex-end;
+    margin-right: 3%;
 }
