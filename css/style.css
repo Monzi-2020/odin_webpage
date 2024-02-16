@@ -65,11 +65,11 @@ img {
 }
 
 .white {
-    padding: 10px;
-    padding-bottom: 80px;
+    padding: 20px;
+    padding-bottom: 90px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 strong {
@@ -86,7 +86,7 @@ div.boxes {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 div.box {
@@ -115,13 +115,14 @@ button {
     background-color: #3882f6;
     color: white;
     font-weight: 700;
-    padding: 5px 30px;
+    padding: 7px 28px;
     border: none;
     border-radius: 5px;
 }
 
 .w_text {
     color: #f9faf8;
+    font-weight: 300;
     font-family: 'roboto', sans-serif;
 }
 
@@ -143,7 +144,7 @@ div.grey {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 8% 12%;
+    padding: 9% 15%;
     gap: 10px;
 }
 
@@ -153,6 +154,7 @@ div.grey {
     font-weight: 300;
     font-family: "roboto", sans-serif;
     color: #1f2937;
+    width: 75%;
 }
 
 .name {
@@ -160,5 +162,41 @@ div.grey {
     font-weight: 700;
     font-family: "roboto", sans-serif;
     align-self: flex-end;
-    margin-right: 3%;
+    padding-right: 15%;
+    
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background-color: #3882f6;
+    padding: 35px;
+    width: 60%;
+    border-radius: 8px;
+    margin: 6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button.border {
+    border: 1px solid white;
+    height: 30px;
+}
+
+.action {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 25px;
 }
