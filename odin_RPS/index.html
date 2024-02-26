@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oding Rock Paper Scissors</title>
+    
+</head>
+<body>
+    <script>
+    function getComputerChoice() {
+        const arr = ["Rock", "Paper", "Scissors"];
+        const choice = console.log(arr[Math.floor(Math.random() * arr.length)]);
+    }
+    
+    let computerSelection = getComputerChoice();
+    let playerSelection = prompt("Rock, Paper, Scissors?");
+    
+    function round(computerSelection, playerSelection) {
+        console.log(`${computerSelection} + ${playerSelection}`);
+    }
+    </script>
+</body>
+</html>
